@@ -1,22 +1,22 @@
-# 👋 ¡Hola y bienvenido a mi portafolio!  
+# 👋 Hello & Welcome to My Portfolio!  
 
-No soy un robot 🤖, soy un **desarrollador Front-End** apasionado por la creación de experiencias web innovadoras y funcionales.  
+I’m not a robot 🤖—I’m a **Front-End Developer** passionate about creating innovative and functional web experiences.  
 
-## 🚀 Sobre mí  
-Me especializo en **React y Next.js** para desarrollar aplicaciones modernas, escalables y de alto rendimiento. Más que escribir código, diseño experiencias que combinan estética, usabilidad y eficiencia.  
+## 🚀 About Me  
+I specialize in **React and Next.js** to build modern, scalable, and high-performance applications. More than just writing code, I design experiences that blend aesthetics, usability, and efficiency.  
 
-Siempre estoy explorando nuevas tecnologías y optimizando procesos para llevar cada proyecto al siguiente nivel.  
+I’m always exploring new technologies and optimizing processes to take every project to the next level.  
 
-## 🛠️ Tecnologías que uso  
-- ⚛️ **React** – Interfaces dinámicas y optimizadas.  
-- ⚡ **Next.js** – Aplicaciones SSR e ISR de alto rendimiento.  
-- 🗄️ **Turso** – Base de datos eficiente y rápida.  
-- 🛢️ **Prisma** – ORM moderno para manejar datos.  
-- 🎨 **Tailwind CSS** – Estilos flexibles y reutilizables.  
-- 🔷 **TypeScript** – Código tipado y seguro.  
+## 🛠️ Technologies I Use  
+- ⚛️ **React** – Dynamic and optimized interfaces.  
+- ⚡ **Next.js** – High-performance SSR & ISR applications.  
+- 🗄️ **Turso** – Efficient and fast database.  
+- 🛢️ **Prisma** – Modern ORM for data management.  
+- 🎨 **Tailwind CSS** – Flexible and reusable styles.  
+- 🔷 **TypeScript** – Type-safe and robust code.  
 
 ---
 
-![Mi Portafolio](https://github.com/miguedev1047/my-portfolio/blob/master/assets/images/portfolio-img.png)  
+![My Portfolio](https://github.com/miguedev1047/my-portfolio/blob/master/assets/images/portfolio-img.png)  
 
-Si te interesa colaborar o simplemente charlar sobre desarrollo web, ¡no dudes en contactarme! 🚀  
+If you're interested in collaborating or just chatting about web development, feel free to reach out! 🚀  
