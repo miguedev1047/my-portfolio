@@ -31,7 +31,7 @@ export function ProjectItem(props: ProjectItemProps) {
         <figure className='relative w-full h-[320px] rounded-b-(--radius) overflow-hidden select-none'>
           <Link
             href={isSource ? href : '#'}
-            target={!isSource ? '_blank' : '_self'}
+            target={isSource ? '_blank' : '_self'}
           >
             <Image
               fill
