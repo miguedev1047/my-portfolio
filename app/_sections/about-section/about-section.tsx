@@ -20,7 +20,7 @@ export function AboutSection() {
             </h2>
 
             <p className='text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center max-w-2xl mx-auto'>
-              Siempre en busca de innovación, me especializo en{' '}
+              Soy Miguel Angel de Colombia. Me especializo en{' '}
               <span className='font-bold'>React/Next.js</span> para crear
               aplicaciones y sitios web eficientes, escalables y modernos. No
               solo escribo código, diseño experiencias que optimizan el
