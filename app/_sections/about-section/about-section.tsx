@@ -21,7 +21,7 @@ export function AboutSection() {
 
             <p className='text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center max-w-2xl mx-auto'>
               Soy Miguel Angel de Colombia. Me especializo en{' '}
-              <span className='font-bold'>React/Next.js</span> para crear
+              <span className='font-bold'>Next.js/Astro</span> para crear
               aplicaciones y sitios web eficientes, escalables y modernos. No
               solo escribo código, diseño experiencias que optimizan el
               rendimiento y la interacción.
