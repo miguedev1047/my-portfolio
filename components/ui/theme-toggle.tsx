@@ -15,11 +15,11 @@ export function ThemeToggle() {
   const { setTheme, theme } = useTheme()
 
   return (
-    <TooltipProvider disableHoverableContent>
+    <TooltipProvider>
       <Tooltip delayDuration={100}>
         <TooltipTrigger asChild>
           <Button
-            className='rounded-full w-8 h-8 bg-background'
+            className='rounded-full w-8 h-8 bg-background cursor-pointer'
             variant='outline'
             size='icon'
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
