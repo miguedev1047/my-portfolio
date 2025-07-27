@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <>
       <Spotlight />
-
       <Header />
       <main className='relative z-10 overflow-clip'>
         <HeroSection />
