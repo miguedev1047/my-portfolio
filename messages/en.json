@@ -1,0 +1,56 @@
+{
+  "Metadata": {
+    "title": "Miguel Angel | Portfolio",
+    "description": "I'm not a robot (though I might seem like one). I'm a Front-End developer who loves code and great web design."
+  },
+  "Header": {
+    "menu": {
+      "home": "Home",
+      "projects": "Projects",
+      "aboutMe": "About Me"
+    },
+    "toggleTheme": {
+      "tooltip": "Toggle theme"
+    },
+    "lngSwitcher": {
+      "es": "Spanish",
+      "en": "English",
+      "label": "Languages"
+    }
+  },
+  "Home": {
+    "sections": {
+      "hero": {
+        "title": "Hi, I'm <aurora>Miguel Angel</aurora>",
+        "description": "I'm not a robot, I'm a <bold>Front-End</bold> developer who loves code and great web design. I'm passionate about web design and programming."
+      },
+      "projects": {
+        "title": "Projects",
+        "description": "I've worked on a variety of projects, from simple websites to complex web applications. Here are some of my favorites.",
+        "items": {
+          "genshinDiary": {
+            "title": "Genshin Diary",
+            "description": "A website offering simple guides for your favorite Genshin Impact characters."
+          },
+          "openfyMusic": {
+            "title": "Openfy Music",
+            "description": "A desktop app that lets you download and listen to music."
+          },
+          "instagramClone": {
+            "title": "Instagram Clone",
+            "description": "A simple Instagram clone built with modern technologies."
+          }
+        }
+      },
+      "aboutMe": {
+        "title": "About Me",
+        "description": "I'm Miguel Angel from Colombia. I specialize in <bold>Next.js</bold> and other <bold>Web</bold> frameworks to build efficient, scalable, and modern websites and apps. I don’t just write code—I design experiences that optimize performance and interaction."
+      }
+    }
+  },
+  "Footer": {
+    "email": {
+      "tooltip": "Copy email"
+    }
+  }
+}

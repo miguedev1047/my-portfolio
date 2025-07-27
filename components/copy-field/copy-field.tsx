@@ -8,8 +8,10 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '../ui/tooltip'
+import { useTranslations } from 'next-intl'
 
 export function CopyField(props: CopyFieldProps) {
+  const t = useTranslations('Footer.email')
   const { value, children } = props
 
   const handleCopy = async () => {
@@ -26,7 +28,6 @@ export function CopyField(props: CopyFieldProps) {
       <Tooltip>
         <TooltipTrigger asChild>
           <span
-          
             onClick={handleCopy}
             aria-label={`Copiar ${value}`}
           >
@@ -34,7 +35,7 @@ export function CopyField(props: CopyFieldProps) {
           </span>
         </TooltipTrigger>
         <TooltipContent>
-          <p>Copiar</p>
+          <p>{t('tooltip')}</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>

@@ -1,0 +1,56 @@
+{
+  "Metadata": {
+    "title": "Miguel Angel | Portfolio",
+    "description": "No soy un robot (aunque a veces lo parezca). Soy un desarrollador Front-End que ama el código y el buen diseño web."
+  },
+  "Header": {
+    "menu": {
+      "home": "Inicio",
+      "projects": "Proyectos",
+      "aboutMe": "Acerca de mi"
+    },
+    "toggleTheme": {
+      "tooltip": "Cambiar tema"
+    },
+    "lngSwitcher": {
+      "es": "Español",
+      "en": "Inglés",
+      "label": "Idiomas"
+    }
+  },
+  "Home": {
+    "sections": {
+      "hero": {
+        "title": "Hola, soy <aurora>Miguel Angel</aurora>",
+        "description": "No soy un robot, soy un desarrollador <bold>Front-End</bold> que ama el código y el buen diseño web. Me apasiona el diseño web y la programación."
+      },
+      "projects": {
+        "title": "Proyectos",
+        "description": "He trabajado en diversos proyectos, desde sitios web sencillos hasta aplicaciones web complejas. Aquí tienes algunos de mis favoritos.",
+        "items": {
+          "genshinDiary": {
+            "title": "Genshin Diary",
+            "description": "Sitio web que ofrece guías sencillas para tus personajes favoritos de Genshin Impact."
+          },
+          "openfyMusic": {
+            "title": "Openfy Music",
+            "description": "Una aplicación de escritorio que te permite descargar y escuchar música."
+          },
+          "instagramClone": {
+            "title": "Instagram Clone",
+            "description": "Un clón simple de instagram con tecnologías modernas."
+          }
+        }
+      },
+      "aboutMe": {
+        "title": "Acerca de mi",
+        "description": "Soy Miguel Angel de Colombia. Me especializo en <bold>Next.js</bold> y otros frameworks <bold>Webs</bold> para crear aplicaciones y sitios web eficientes, escalables y modernos. No solo escribo código, diseño experiencias que optimizan el rendimiento y la interacción."
+      }
+    }
+  },
+  "Footer": {
+    "email": {
+      "tooltip": "Copiar email"
+    }
+  }
+}

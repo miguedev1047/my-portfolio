@@ -1,9 +1,12 @@
 import { ProfileImg } from '@/assets/images/_index'
 import { AuroraText } from '@/components/ui/aurora-text'
 import { BlurFade } from '@/components/ui/blur-fade'
+import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 
 export function HeroSection() {
+  const t = useTranslations('Home.sections')
+
   return (
     <BlurFade
       delay={0.25}
@@ -25,12 +28,14 @@ export function HeroSection() {
           </figure>
 
           <h1 className='text-4xl md:text-7xl text-balance font-bold text-center'>
-            Hola, soy <AuroraText>Miguel Angel</AuroraText>
+            {t.rich('hero.title', {
+              aurora: (chunks) => <AuroraText>{chunks}</AuroraText>,
+            })}
           </h1>
           <p className='text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center max-w-xl mx-auto'>
-            No soy un robot, soy un desarrollador{' '}
-            <span className='font-bold'>Front-End</span>. Me apasiona el diseño
-            web y la programación.
+            {t.rich('hero.description', {
+              bold: (chunks) => <span className='font-bold'>{chunks}</span>,
+            })}
           </p>
         </div>
       </section>

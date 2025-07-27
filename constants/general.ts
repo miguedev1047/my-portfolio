@@ -4,17 +4,22 @@ import {
   OpenfyMusicProjectImg,
 } from '@/assets/projetcs/_index'
 
+export const LNGS = {
+  es: { nativeName: 'es', name: 'Español' },
+  en: { nativeName: 'en', name: 'English' },
+}
+
 export const NAV_ITEMS = [
   {
-    title: 'Inicio',
+    title: 'home',
     href: '#home',
   },
   {
-    title: 'Proyectos',
+    title: 'projects',
     href: '#projects',
   },
   {
-    title: 'Acerca de mi',
+    title: 'aboutMe',
     href: '#about',
   },
 ]
@@ -30,11 +35,10 @@ export const MY_TECHONOLOGIES = [
 
 export const PROJECTS_ITEMS = [
   {
-    title: 'Genshin Diary',
+    title: 'genshinDiary.title',
     colorTitle: 'text-red-400',
-    description:
-      'Sitio web que ofrece guías sencillas para tus personajes favoritos de Genshin Impact.',
-    technologies: ['NextJS', 'React', 'Tailwind', 'Shadcn', 'Prisma', 'Turso'],
+    description: 'genshinDiary.description',
+    technologies: ['NextJS', 'React', 'Prisma', 'Turso', 'Tailwind', 'Shadcn'],
     image: GenshinDiaryProjectImg.src,
     href: 'https://genshin-diary.vercel.app/',
     github: 'https://github.com/miguedev1047/genshin-diary-app',
@@ -42,11 +46,10 @@ export const PROJECTS_ITEMS = [
     isSource: true,
   },
   {
-    title: 'Openfy Music',
+    title: 'openfyMusic.title',
     colorTitle: 'text-blue-400',
-    description:
-      'Una aplicación de escritorio que te permite descargar y escuchar música.',
-    technologies: ['Electron', 'React', 'Tailwind', 'Shadcn', 'NodeJS'],
+    description: 'openfyMusic.description',
+    technologies: ['Electron', 'NodeJS', 'React', 'Tailwind', 'Shadcn'],
     image: OpenfyMusicProjectImg.src,
     href: 'https://github.com/miguedev1047/openfy-music',
     github: 'https://github.com/miguedev1047/openfy-music',
@@ -54,10 +57,18 @@ export const PROJECTS_ITEMS = [
     isSource: true,
   },
   {
-    title: 'Instagram Clone',
+    title: 'instagramClone.title',
     colorTitle: 'text-yellow-400',
-    description: 'Un clón simple de instagram con tecnologías modernas.',
-    technologies: ['NextJS', 'React', 'Tailwind', 'Shadcn', 'Drizzle', 'Turso'],
+    description: 'instagramClone.description',
+    technologies: [
+      'NextJS',
+      'React',
+      'Drizzle',
+      'Turso',
+      'BetterAuth',
+      'Tailwind',
+      'Shadcn',
+    ],
     image: IgCloneProjectImg.src,
     href: 'https://ig-app-clone.vercel.app',
     github: 'https://github.com/miguedev1047/ig-clone',

@@ -1,18 +1,21 @@
 'use client'
 
+import Image from 'next/image'
+
 import { Github } from '@/assets/icons/github-icon'
 import { type ProjectItemProps } from './project-item.props'
-
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { MagicCard } from '@/components/ui/magic-card'
 import { useTheme } from 'next-themes'
-import Image from 'next/image'
-import Link from 'next/link'
+import { cn } from '@/lib/utils'
+import { Link } from '@/i18n/navigation'
+import { useTranslations } from 'next-intl'
 
 export function ProjectItem(props: ProjectItemProps) {
   const { theme } = useTheme()
+  const t = useTranslations('Home.sections.projects.items')
 
   const {
     description,
@@ -23,6 +26,7 @@ export function ProjectItem(props: ProjectItemProps) {
     isCode,
     isSource,
     title,
+    colorTitle,
   } = props
 
   return (
@@ -36,7 +40,7 @@ export function ProjectItem(props: ProjectItemProps) {
             <Image
               fill
               src={image}
-              alt={title}
+              alt={t(title)}
               className='size-full object-cover duration-300 ease-in-out transition-transform hover:scale-110 '
             />
           </Link>
@@ -44,12 +48,21 @@ export function ProjectItem(props: ProjectItemProps) {
 
         <CardContent className='flex flex-col gap-4 p-4'>
           <div className='w-full flex justify-between items-center'>
-            <h3 className='text-2xl text-red-400 font-bold'>{title}</h3>
+            <Link
+              href={isSource ? href : '#'}
+              target={isSource ? '_blank' : '_self'}
+            >
+              <h3
+                className={cn('text-2xl font-bold hover:underline', colorTitle)}
+              >
+                {t(title)}
+              </h3>
+            </Link>
 
             {isCode && (
               <Button
                 size='icon'
-                variant='ghost'
+                variant='outline'
                 asChild
               >
                 <Link
@@ -63,7 +76,7 @@ export function ProjectItem(props: ProjectItemProps) {
           </div>
 
           <p className='font-normal text-base text-neutral-900 dark:text-neutral-300'>
-            {description}
+            {t(description)}
           </p>
 
           <ul className='flex flex-wrap items-center gap-1'>
