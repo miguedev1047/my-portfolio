@@ -1,7 +1,7 @@
 import { PROJECTS_ITEMS } from '@/constants/general'
 import { ProjectItem } from '@/app/_sections/projects-section/_components/project-item'
 
-export function ProjectList() {
+export function ProjectList() { 
   const MAPPED_PROJECTS = PROJECTS_ITEMS.map((item, index) => (
     <ProjectItem key={index} {...item} />
   ))

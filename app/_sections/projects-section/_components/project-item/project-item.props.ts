@@ -1,10 +1,3 @@
-export interface ProjectItemProps {
-    title: string
-    description: string
-    technologies: string[]
-    image: string
-    href?: string
-    github?: string
-    isCode?: boolean
-    isSource?: boolean
-  }
+import { PROJECTS_ITEMS } from '@/constants/general'
+
+export type ProjectItemProps = typeof PROJECTS_ITEMS[number]
