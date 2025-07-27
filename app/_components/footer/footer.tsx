@@ -1,10 +1,11 @@
 import { CopyField } from '@/components/copy-field'
 import { BlurFade } from '@/components/ui/blur-fade'
-import { Button } from '@/components/ui/button'
 import { SendIcon } from 'lucide-react'
 import { Github } from '@/assets/icons/github-icon'
 import { AnimatedShinyText } from '@/components/ui/animated-shiny-text'
 import { EMAIL, GITHUB } from '@/constants/general'
+import { RainbowButton } from '@/components/magicui/rainbow-button'
+
 import Link from 'next/link'
 
 export function Footer() {
@@ -21,8 +22,7 @@ export function Footer() {
           </AnimatedShinyText>
         </CopyField>
 
-        <Button
-          variant='ghost'
+        <RainbowButton
           size='icon'
           asChild
         >
@@ -32,7 +32,7 @@ export function Footer() {
           >
             <Github />
           </Link>
-        </Button>
+        </RainbowButton>
       </footer>
     </BlurFade>
   )
