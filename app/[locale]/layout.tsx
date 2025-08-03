@@ -46,7 +46,7 @@ export default async function RootLayout({
       suppressHydrationWarning
     >
       <body
-        className={`${onest.className} antialiased overflow-x-clip`}
+        className={`${onest.className} antialiased overflow-x-hidden max-sm:p-2`}
         suppressHydrationWarning
       >
         <NextIntlClientProvider>

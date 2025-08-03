@@ -16,9 +16,10 @@ export function Footer() {
     >
       <footer className='max-w-5xl mx-auto rounded-md antialiased relative border bg-card mb-8 p-6 flex justify-between items-center shadow'>
         <CopyField value={EMAIL}>
-          <AnimatedShinyText className='flex items-center gap-2 justify-center px-4 py-1 cursor-pointer'>
+          <AnimatedShinyText className='flex items-center gap-2 justify-center px-4 py-1 cursor-pointer '>
             <SendIcon className='transition-transform duration-300 ease-in-out group-hover:translate-x-0.5' />
-            <p>{EMAIL}</p>
+            <p className='hidden sm:block'>{EMAIL}</p>
+            <p className='block sm:hidden'>Copy Email</p>
           </AnimatedShinyText>
         </CopyField>
 
