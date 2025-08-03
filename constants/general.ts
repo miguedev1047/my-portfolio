@@ -78,7 +78,7 @@ export const PROJECTS_ITEMS = [
   },
   {
     title: 'trikiGame.title',
-    colorTitle: 'text-yellow-400',
+    colorTitle: 'text-[#FFFF00]',
     description: 'trikiGame.description',
     technologies: ['React', 'Tailwind', "Zustand", 'Shadcn', '8Bit'],
     image: TrikiGameProjectImg.src,
