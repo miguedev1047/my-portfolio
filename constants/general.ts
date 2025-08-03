@@ -2,6 +2,7 @@ import {
   GenshinDiaryProjectImg,
   IgCloneProjectImg,
   OpenfyMusicProjectImg,
+  TrikiGameProjectImg,
 } from '@/assets/projetcs/_index'
 
 export const LNGS = {
@@ -72,6 +73,17 @@ export const PROJECTS_ITEMS = [
     image: IgCloneProjectImg.src,
     href: 'https://ig-app-clone.vercel.app',
     github: 'https://github.com/miguedev1047/ig-clone',
+    isCode: true,
+    isSource: true,
+  },
+  {
+    title: 'trikiGame.title',
+    colorTitle: 'text-yellow-400',
+    description: 'trikiGame.description',
+    technologies: ['React', 'Tailwind', "Zustand", 'Shadcn', '8Bit'],
+    image: TrikiGameProjectImg.src,
+    href: 'https://triki-game-web.vercel.app/',
+    github: 'https://github.com/miguedev1047/triki-game',
     isCode: true,
     isSource: true,
   },

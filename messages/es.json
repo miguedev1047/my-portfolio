@@ -39,6 +39,10 @@
           "instagramClone": {
             "title": "Instagram Clone",
             "description": "Un clón simple de instagram con tecnologías modernas."
+          },
+          "trikiGame": {
+            "title": "Triki Game",
+            "description": "Un juego simple de tres en raya con un toque especial. ¡Las fichas pasadas desaparecen! ¡Gana el más atento!"
           }
         }
       },

@@ -39,6 +39,10 @@
           "instagramClone": {
             "title": "Instagram Clone",
             "description": "A simple Instagram clone built with modern technologies."
+          },
+          "trikiGame": {
+            "title": "Triki Game",
+            "description": "A simple tic-tac-toe game with a twist. Swiped tiles disappear! The most attentive wins!"
           }
         }
       },
