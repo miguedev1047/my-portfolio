@@ -52,9 +52,16 @@
       }
     }
   },
+
   "Footer": {
     "email": {
       "tooltip": "Copy email"
+    },
+    "toast": {
+      "copy": {
+        "message": "Email copied!",
+        "error": "Error to copy email."
+      }
     }
   }
 }

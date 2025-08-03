@@ -55,6 +55,12 @@
   "Footer": {
     "email": {
       "tooltip": "Copiar email"
+    },
+    "toast": {
+      "copy": {
+        "message": "Correo copiado!",
+        "error": "No se pudo copiar el email."
+      }
     }
   }
 }

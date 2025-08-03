@@ -1,25 +1,25 @@
 'use client'
 
-import { toast } from 'sonner'
-import { CopyFieldProps } from '@/components/copy-field/copy-field.type'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '../ui/tooltip'
+} from '@/components/ui/tooltip'
+import { toast } from 'sonner'
+import { CopyFieldProps } from '@/components/copy-field/copy-field.type'
 import { useTranslations } from 'next-intl'
 
 export function CopyField(props: CopyFieldProps) {
-  const t = useTranslations('Footer.email')
+  const t = useTranslations('Footer')
   const { value, children } = props
 
   const handleCopy = async () => {
     try {
       await navigator.clipboard.writeText(value)
-      toast.success('Copiado al portapapeles.')
+      toast.success(t('toast.copy.message'))
     } catch {
-      toast.error('No se pudo copiar el valor.')
+      toast.error(t('toast.copy.error'))
     }
   }
 
@@ -35,7 +35,7 @@ export function CopyField(props: CopyFieldProps) {
           </span>
         </TooltipTrigger>
         <TooltipContent>
-          <p>{t('tooltip')}</p>
+          <p>{t('email.tooltip')}</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
