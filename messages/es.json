@@ -43,6 +43,10 @@
           "trikiGame": {
             "title": "Triki Game",
             "description": "Un juego simple de tres en raya con un toque especial. ¡Las fichas pasadas desaparecen! ¡Gana el más atento!"
+          },
+          "calendarApp": {
+            "title": "Calendar App",
+            "description": "Un calendario moderno y minimalista para manejar eventos y notas."
           }
         }
       },

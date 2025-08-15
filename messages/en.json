@@ -43,6 +43,10 @@
           "trikiGame": {
             "title": "Triki Game",
             "description": "A simple tic-tac-toe game with a twist. Swiped tiles disappear! The most attentive wins!"
+          },
+          "calendarApp": {
+            "title": "Calendar App",
+            "description": "A modern and minimalist calendar to manage events and notes."
           }
         }
       },
