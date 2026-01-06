@@ -2,7 +2,6 @@ import {
   CalendarAppProjectImg,
   GenshinDiaryProjectImg,
   IgCloneProjectImg,
-  OpenfyMusicProjectImg,
   TrikiGameProjectImg,
 } from '@/assets/projetcs/_index'
 
@@ -47,17 +46,6 @@ export const PROJECTS_ITEMS = [
     image: GenshinDiaryProjectImg.src,
     href: 'https://genshin-diary.vercel.app/',
     github: 'https://github.com/miguedev1047/genshin-diary-app',
-    isCode: true,
-    isSource: true,
-  },
-  {
-    title: 'openfyMusic.title',
-    colorTitle: 'text-blue-400',
-    description: 'openfyMusic.description',
-    technologies: ['Electron', 'NodeJS', 'React', 'Tailwind', 'Shadcn'],
-    image: OpenfyMusicProjectImg.src,
-    href: 'https://github.com/miguedev1047/openfy-music',
-    github: 'https://github.com/miguedev1047/openfy-music',
     isCode: true,
     isSource: true,
   },
