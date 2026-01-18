@@ -1,6 +1,5 @@
 import {
   CalendarAppProjectImg,
-  GenshinDiaryProjectImg,
   IgCloneProjectImg,
   TrikiGameProjectImg,
 } from '@/assets/projetcs/_index'
@@ -38,17 +37,6 @@ export const MY_TECHONOLOGIES = [
 ]
 
 export const PROJECTS_ITEMS = [
-  {
-    title: 'genshinDiary.title',
-    colorTitle: 'text-red-400',
-    description: 'genshinDiary.description',
-    technologies: ['NextJS', 'React', 'Prisma', 'Turso', 'Tailwind', 'Shadcn'],
-    image: GenshinDiaryProjectImg.src,
-    href: 'https://genshin-diary.vercel.app/',
-    github: 'https://github.com/miguedev1047/genshin-diary-app',
-    isCode: true,
-    isSource: true,
-  },
   {
     title: 'instagramClone.title',
     colorTitle: 'text-yellow-400',
